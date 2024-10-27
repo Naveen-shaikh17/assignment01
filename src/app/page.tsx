@@ -9,7 +9,7 @@ const homepage =()=>{
 
             <p className={styles.p}>You are on home page.</p>
         
-      <div>  
+      <div className={styles.main}>  
    <ul className={styles.pages}>
     <li ><Link href ="/about"> About Us </Link></li>
     <li  ><Link href="/contact">Contact us</Link></li>
